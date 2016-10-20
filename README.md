@@ -5,7 +5,7 @@
 通过bezier曲线 及 帧动画
 
 //弹出动画
-    [UIView animateWithDuration:.2 delay:0 usingSpringWithDamping:.6 initialSpringVelocity:.8 options:UIViewAnimationOptionCurveEaseOut animations:^{
+   [UIView animateWithDuration:.2 delay:0 usingSpringWithDamping:.6 initialSpringVelocity:.8 options:UIViewAnimationOptionCurveEaseOut animations:^{
         applauseView.transform = CGAffineTransformIdentity;
         applauseView.alpha     = .9;
     } completion:NULL];
